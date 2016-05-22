@@ -26,8 +26,8 @@ erlinit: setup_environment
 erlinit: setup_networking
 erlinit: configure_hostname
 erlinit: Hostname: myhostname
-erlinit: Env: 'HOME=/root'
 erlinit: Env: 'PATH=/usr/sbin:/usr/bin:/sbin:/bin'
+erlinit: Env: 'HOME=/root'
 erlinit: Env: 'TERM=vt100'
 erlinit: Env: 'ROOTDIR=/usr/lib/erlang'
 erlinit: Env: 'BINDIR=/usr/lib/erlang/erts-6.0/bin'
